@@ -1,0 +1,114 @@
+body {
+    background-image: linear-gradient(to top, #3fb0c2, #36a4b6, #2d98aa, #248c9e, #1a8192, #338696, #468c9b, #55919f, #7ca9b5, #a1c1cb, #c6dae1, #ebf4f7);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0.6px;
+}
+
+nav {
+    width: 40%;
+}
+
+.lista-nav {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+a {
+    color: #0a525e;
+    text-decoration: none;
+}
+
+.div-1{
+    margin-left: 10%;
+
+}
+
+.div-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+    
+}
+
+.imagenpericia {
+    width:400px;
+    height:400px;
+    border-radius: 10%;
+    box-shadow: 0px 2px 14px 2px  #EAE9E7;
+    object-fit: cover;
+
+}
+
+.texto {
+    max-width:60%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    color:  #08272c;
+}
+
+.section-info{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+button:hover{
+    background-color: #82c8d4;
+
+}
+
+.boton-nosotros {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    margin-right: 100px;
+    background-color:#9FC0CA;
+    color:  #0a525e;
+    font-weight: 600;
+    outline: 0;
+    border: 0;
+    width: auto;
+    height: 45px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 3px 2px #EAE9E7;
+}
+
+.boton-vermas {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    max-width: 200px;
+    background-color:#9FC0CA;
+    color:  #0a525e;
+    font-weight: 600;
+    outline: 0;
+    border: 0;
+    width: 20%;
+    height: 45px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 3px 2px #EAE9E7;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    color:  #0a525e;
+
+}
